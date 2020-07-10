@@ -32,7 +32,10 @@ public class Clase_Division {
       } catch (Exception e) {
           System.out.print("ERROR" + e);
       }
+      finally{
+      System.out.print(" Operacion exitosa!! ");
       
+      }
   }
   
 }
